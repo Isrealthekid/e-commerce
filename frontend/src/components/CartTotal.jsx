@@ -23,7 +23,7 @@ const CartTotal = () => {
                 {/* if the amount is 0 set the shipping fee to 0 else put the delivery fee */}
             </div>
             <hr />
-            <div className="flex justify-between border-top">
+            <div className="flex justify-between ">
                 <b className='text-xl'>Total</b>
                 <b className='text-xl'>{currency} {getCartAmount() === 0 ? 0 : getCartAmount() + delivery_fee }.00</b>
                 {/* if the amount is 0 set the total to 0 else add the delivery fee */}
